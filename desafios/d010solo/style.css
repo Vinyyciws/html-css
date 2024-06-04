@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+}
+
+body {
+    background-color: #39B878    ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+h1#curioso {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    padding-top: 50px;
+    display: flex;
+    width: max-content;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.521);
+    margin:auto;
+    padding: auto;
+}
+
+p#subcur {
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.521);
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding: auto;
+    display: flex;
+    width: max-content;
+}
+
+main {
+    background-color: white;
+    width: 75%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.521);
+    text-align: center;
+    margin: auto;
+}
+
+h1#titulo {
+    text-align: start;
+    padding: 15px;
+    margin: 5px;
+    font-size: 40px;
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    color: #206643;
+}
+
+h2 {
+    background-color: #43db8f9a;
+    background-image: linear-gradient(90deg, #43db8f9a, #fff);
+    text-align: start;
+    margin: 5px;
+    padding: 15px;
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    color: #206643;
+}
+
+#cabecalho {
+    margin: auto;
+    color: white;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.37);
+    background-color: #43DB90;
+    background-image: linear-gradient(180deg, #43DB90, #206643);
+}
+
+a.menuitens:hover {
+    color: #43DB90;
+}
+
+nav#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.menuitens {
+    color: white
+}
+
+ul > li {
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+ul {
+    padding-left: 5px;
+    display: flex;
+    list-style: none;
+}
+
+aside {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.521);
+    border-radius: 7px;
+    margin: 3%;
+    background-color: #43db8f65;
+}
+
+ul#version {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+#p1 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #43DB90; 
+}
+
+#asidevideo {
+    padding: 5%;
+    background-color: #206643;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #206643;
+    color: white;
+}
