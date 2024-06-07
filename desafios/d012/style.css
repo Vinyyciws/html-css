@@ -60,9 +60,6 @@ section#img2 {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
-section.sect {
-    box-shadow: ;
-}
 
 p.estrofe {
     display: inline-flex;
